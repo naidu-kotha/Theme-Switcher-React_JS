@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-container {
+    height: 200px;
+    width: 500px;
+    border-radius: 16px;
+    max-width: 80%;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+.card-black {
+    background-color: #ffffff;
+}
+
+.card-light {
+    background-color: #000000;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: "Roboto";
+    margin-bottom: 30px;
+}
+
+.text-white {
+    color: #000000;
+}
+
+.text-dark {
+    color: #ffffff;
+}
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+
+.button-light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
